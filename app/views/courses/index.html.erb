@@ -11,6 +11,8 @@
 
   <tbody>
     <% @courses.each do |course| %>
+      <%= course.title %>
+      <%= course.desc %>
       <tr>
         <td><%= link_to 'Show', course %></td>
         <td><%= link_to 'Edit', edit_course_path(course) %></td>
