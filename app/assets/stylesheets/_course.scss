@@ -1,0 +1,22 @@
+.widget
+{
+	width:340px;
+	float:left;
+	overflow:hidden;
+	margin-right:30px;
+	margin-bottom: 30px;
+	background:#fff;
+	border: 1px solid #DDE3EB;
+	border-radius: 3px;
+}
+
+.widget .wrapper
+{
+	padding:20px;
+}
+
+.widget .image-container
+{
+	width:200px;
+	height:200px;
+}
