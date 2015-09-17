@@ -2,3 +2,8 @@
 
 <%= link_to 'Edit', edit_course_path(@course) %> |
 <%= link_to 'Back', courses_path %>
+
+
+<% @lessons.each do |lesson| %>
+    <img src="<%= lesson.image %>"/>
+<% end %>

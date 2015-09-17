@@ -10,6 +10,8 @@ class CoursesController < ApplicationController
   # GET /courses/1
   # GET /courses/1.json
   def show
+    @course = Course.friendly.find(params[:id])
+    @lessons = @course.lessons.limit(50)
   end
 
   # GET /courses/new
