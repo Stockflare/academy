@@ -1,31 +1,32 @@
 
+
 	<div class="widget">
 		<div class="wrapper">
-
+			<%= link_to course_path(course) do %>
 			<div class="row">
 				<div class="col-md-12">
-					<div class="featured-image">
-						<img class="img-responsive" src="<%= course.image %>"/>
+					<div class="featured-image text-center">
+						<%= image_tag "buffett.png" %>
+					</div>
+				</div>
+			</div>
+			<% end %>
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="title">
+						<h2><%= course.title %></h2>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<div class="title">
-					<%= link_to course_path(course) do %>
-						<%= course.title %>
-					<% end %>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-12">
 					<div class="desc">
-						<%= course.desc %>
+						<p><%= course.desc %></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+

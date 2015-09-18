@@ -12,11 +12,29 @@
 
 .widget .wrapper
 {
-	padding:20px;
+	padding:30px;
 }
 
 .widget .image-container
 {
 	width:200px;
 	height:200px;
+}
+
+
+.widget h2
+{
+	font-size: 19px;
+	color: #393939;
+	line-height: 23px;
+	padding:5px 0px;
+	font-weight:400;
+}
+
+.widget p
+{
+	opacity: 0.7;
+	font-size: 14px;
+	color: #535D74;
+	line-height: 23px;
 }

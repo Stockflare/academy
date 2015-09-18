@@ -4,6 +4,4 @@
 <%= link_to 'Back', courses_path %>
 
 
-<% @lessons.each do |lesson| %>
-    <img src="<%= lesson.image %>"/>
-<% end %>
+<%= render partial: "lessons/lesson", collection: @course.lessons %>
