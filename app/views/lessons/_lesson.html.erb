@@ -1,1 +1,11 @@
-<img src="<%= lesson.image %>"/>
+<%= link_to lesson_path(lesson) do %>
+	<div class="row lesson">
+		<div class="col-md-1">
+			1
+		</div>
+		<div class="col-md-7">
+			<h2><%= lesson.title %></h2>
+			<p><%= lesson.desc %></p>
+		</div>
+	</div>
+<% end %>

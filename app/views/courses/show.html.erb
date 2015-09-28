@@ -1,7 +1,5 @@
-<p id="notice"><%= notice %></p>
+<%= render "header" %>
 
-<%= link_to 'Edit', edit_course_path(@course) %> |
-<%= link_to 'Back', courses_path %>
-
-
-<%= render partial: "lessons/lesson", collection: @course.lessons %>
+<div class="container">
+	<%= render partial: "lessons/lesson", collection: @course.lessons %>
+</div>

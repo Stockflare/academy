@@ -6,10 +6,10 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-course = Course.create(title: 'This is a test course', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/LvgmXYoB5Hx8Q/giphy.gif')
-Course.create(title: 'This is a test course', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/LvgmXYoB5Hx8Q/giphy.gif')
-Course.create(title: 'This is a test course', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/LvgmXYoB5Hx8Q/giphy.gif')
-Course.create(title: 'This is a test course', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/LvgmXYoB5Hx8Q/giphy.gif')
-Course.create(title: 'This is a test course', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/LvgmXYoB5Hx8Q/giphy.gif')
+course = Course.create(title: 'The Buffett Way', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/LvgmXYoB5Hx8Q/giphy.gif')
+Course.create(title: 'Rihanna', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/hRucqC0f3YS76/giphy.gif')
+Course.create(title: 'Arrested Development', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/LvgmXYoB5Hx8Q/giphy.gif')
+Course.create(title: 'Shakira', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/LvgmXYoB5Hx8Q/giphy.gif')
+taylorswift = Course.create(title: 'Taylor Swift', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/K7HYkHOU911D2/giphy.gif')
 
-Lesson.create(title: 'This is a test course', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/104ueR8J1OPM2s/giphy.gif', course: course)
+Lesson.create(title: 'Taylor Swift Rocks:101', desc: 'Test description is fantastic and this is pro!', image: 'https://media.giphy.com/media/K7HYkHOU911D2/giphy.gif', course: taylorswift)
