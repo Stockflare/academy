@@ -2,6 +2,10 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
+a:hover
+{
+	text-decoration:none;
+}
 
 body
 {
@@ -11,4 +15,24 @@ body
 .navbar
 {
 	margin-bottom:0px;
+}
+
+.view-all
+{
+	padding:25px 0px;
+	background:#C2CBDC;
+	border-radius:3px;
+}
+
+.view-all:hover
+{
+	background:#B6C0D5;
+}
+
+.view-all h3
+{
+	font-weight:500;
+	font-size: 15px;
+	color: #FCFDFF;
+	margin:0px;
 }

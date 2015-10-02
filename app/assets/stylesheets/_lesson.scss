@@ -3,5 +3,53 @@
 	background: #FFFFFF;
 	border: 1px solid #DDE3EB;
 	border-radius: 3px;
+	padding:30px 10px;
+	margin-bottom:20px;
+}
+
+.lesson:hover
+{
+	border: 1px solid #1FA3EE;
+}
+
+.lesson h2
+{
+	font-size: 19px;
+	color: #393939;
+	line-height: 23px;
+	margin:0px;
+	margin-bottom:10px;
+	font-weight:normal;
+}
+
+.lesson p
+{
+	font-size: 16px;
+	color: #9398A7;
+	line-height: 26px;
+	margin:0px;
+}
+
+.lesson span
+{
+	font-weight:600;
+	font-size: 13px;
+	color: #1FA3EE;
+	line-height: 16px;
+	margin-top:10px;
+	display:block;
+}
+
+.lesson .lesson-number
+{
+	border:2px solid #6A748A;
 	padding:10px;
+	border-radius:50%;
+	height:53px;
+	width:53px;
+	font-size:22px;
+	color:#6A748A;
+	font-weight:500;
+	margin:auto;
+	display:block;
 }

@@ -1,3 +1,24 @@
 // Place all the styles related to the index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.heading
+{
+	padding:25px 0px;
+}
+
+h3
+{
+	font-weight:normal;
+	font-size: 18px;
+	color: #626871;
+	line-height: 22px;
+}
+
+p
+{
+	opacity: 0.49;
+	font-size: 14px;
+	color: #626871;
+	line-height: 16px;
+}

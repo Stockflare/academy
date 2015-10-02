@@ -1,3 +1,81 @@
 // Place all the styles related to the Lessons controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.content-wrapper
+{
+	background:#161B22;
+	margin-top:40px;
+	padding:30px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.content-wrapper iframe
+{
+	margin:auto;
+	display:block;
+}
+
+.lesson-description
+{
+	background: #FFFFFF;
+	border: 1px solid #DDE3EB;
+	border-top:none;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding:30px 10px;
+	margin-bottom:20px;
+}
+
+
+.lesson-description h2
+{
+	font-size: 19px;
+	color: #393939;
+	line-height: 23px;
+	margin:0px;
+	margin-bottom:10px;
+	font-weight:normal;
+}
+
+.lesson-description p
+{
+	font-size: 16px;
+	color: #9398A7;
+	line-height: 26px;
+	margin:0px;
+}
+
+.lesson-description span
+{
+	font-weight:600;
+	font-size: 13px;
+	color: #1FA3EE;
+	line-height: 16px;
+	margin-top:10px;
+	display:block;
+}
+
+.lesson-description .lesson-number
+{
+	border:2px solid #6A748A;
+	padding:10px;
+	border-radius:50%;
+	height:53px;
+	width:53px;
+	font-size:22px;
+	color:#6A748A;
+	font-weight:500;
+	margin:auto;
+	display:block;
+}

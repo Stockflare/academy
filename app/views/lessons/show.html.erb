@@ -1,1 +1,23 @@
-<img src="<%= @lesson.image %>"/>
+<%= render "lesson_banner" %>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 content-wrapper">
+			<iframe width="90%" height="480" src="https://www.youtube.com/embed/ufcgwYL-QA4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="row lesson-description">
+		<div class="col-md-1 text-center">
+			<div class="lesson-number">
+				1
+			</div>
+			<div class="duration">
+				<span>15m</span>
+			</div>
+		</div>
+		<div class="col-md-7">
+			<h2><%= @lesson.title %></h2>
+			<p><%= @lesson.desc %></p>
+		</div>
+	</div>
+</div>
